@@ -1,0 +1,94 @@
+.header--image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.header--image img {
+    width: 100%;
+    height: auto;
+}
+
+.horizontal {
+    overflow:hidden;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 5px solid rgb(0,0,0);
+}
+
+.headerContainer {
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.aboutTextBox {
+    height: auto;
+    width: 700;
+    background-color: rgb(32,32,32);
+    border: solid rgb(0,0,0);
+    text-wrap: wrap;
+    color: rgb(200,200,200);
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTextBox {
+    height: auto;
+    width: 700;
+    background-color: rgb(32, 32, 32);
+    border: solid rgb(0, 0, 0);
+    text-wrap: wrap;
+    color: rgb(200, 200, 200);
+}
+
+.projSpecificsCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid red;
+}
+
+body {
+    background-color: rgb(56,56,56);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 75;
+    padding-left: 10;
+}
+
+h2 {
+    color: rgb(255,255,255);
+    font-size: 48
+}
+
+h3 {
+    color: rgb(200,200,200);
+    font-size: 24;
+    margin: auto;
+}
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18;
+}
