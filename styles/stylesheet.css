@@ -119,3 +119,8 @@ p {
     padding-right: 5px;
     font-size: 18;
 }
+
+img {
+    height: auto;
+    width: 200;
+}
