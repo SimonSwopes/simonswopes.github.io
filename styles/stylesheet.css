@@ -94,6 +94,14 @@ a {
     color: rgb(78, 229, 240)
 }
 
+ul {
+    list-style-type: circle;
+}
+
+li {
+    font-size:18
+}
+
 body {
     background-color: rgb(56,56,56);
 }
